@@ -1,0 +1,13 @@
+print('Glo Academy')
+
+print('как тебя зовут?')
+name = input()
+print('Привет', name)
+
+print('как ваша фамилия?')
+sur_name = input()
+print(name, sur_name)
+
+print('как ваше отчество?')
+last_name = input()
+print(name, sur_name, last_name)
