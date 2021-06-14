@@ -1,0 +1,7 @@
+a = str(input())
+b = str(input())
+
+if a == b:
+    print('Все акей')
+else: 
+    print('Пароли не совпадают!')
