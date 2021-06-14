@@ -1,0 +1,24 @@
+import math
+k = int(input())
+
+if k == 0:
+    print( k, '- зеленый карман')
+elif (k>0 and k<=10) and k%2 == 0:
+    print(k, 'черный карман')
+elif not k%2 == 0:
+    print (k, 'красный карман')
+elif k>=11 and k<=18 and k/2== 0:
+    print(k, 'красный карман')
+elif not k%2 == 0:
+    print (k, 'черный карман')
+elif k>=19 or k <=28 and k/2==0:
+    print(k, 'черный карман')
+elif not k%2 == 0:
+    print (k, 'красный карман')
+elif k>=29 or k<=36 and k/2==0:
+    print(k, 'красный карман')
+elif not k%2 == 0:
+    print (k, 'черный карман')
+else:
+    print('ошибка, введите число в диапозоне от 0 до 36 ')
+
