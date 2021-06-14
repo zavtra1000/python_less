@@ -1,0 +1,9 @@
+import math
+k = int(input())
+m = int(input())
+z = math.ceil(k / m)
+if k / m > 0:
+    print('понадобится', z, 'дней')
+else: 
+    print('понадобится', z, 'дней')
+
