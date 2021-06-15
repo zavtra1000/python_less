@@ -1,0 +1,8 @@
+s = ('RealMadird')
+print(s*5)
+
+c = ('ЦСКА')
+print(c*5)
+
+
+
