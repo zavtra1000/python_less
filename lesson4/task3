@@ -1,0 +1,15 @@
+s = ('Недавно проходил обучение в Academy.')
+m = ('Недавно проходил обучение')
+k = ('Недавно проходил обучение в Academy. Все очень круто')
+
+a = len(s)
+b = len(m)
+c = len(k)
+
+if a>b and a>c:
+    print (s)
+elif b>a and a>c:
+    print(m)
+elif c>a and c>b:
+    print(k)
+
