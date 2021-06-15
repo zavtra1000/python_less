@@ -1,0 +1,13 @@
+s = ('Недавно проходил обучение в Glo Academy. Там очень круто! Всем советую и рекомендую.')
+
+if 'Glo Academy' in s:
+    print ('YES')
+else:
+    print('NO')
+m = ('Недавно проходил обучение в Academy. Там очень круто! Всем советую и рекомендую.')
+
+if 'Glo Academy' in m:
+    print ('YES')
+else:
+    print('NO')
+
