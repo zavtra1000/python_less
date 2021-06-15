@@ -1,0 +1,4 @@
+s = input()
+a = len(str(s))
+print(a)
+
