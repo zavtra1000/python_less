@@ -1,0 +1,13 @@
+#ввод данных пользователем
+#s = input()
+
+s = 'iodzeranov@mail.ru'
+if '@' and '.' in s:
+    print('корректный email адрес')
+else:
+    print('не корректный email адрес')
+
+
+
+
+
