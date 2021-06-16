@@ -1,0 +1,2 @@
+for s in range(25):
+    print("Hello, Glo Academy")
