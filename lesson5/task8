@@ -1,0 +1,21 @@
+
+max = int(input())
+min = int(input())
+
+for i in range(3):
+    n = int(input())
+    #a = n>=2
+    if n > max:
+        max = n
+        if n < min:
+            min = n
+            
+print('максимум равен', max)
+print('минимум равен', min)
+    
+    
+
+    
+
+
+    
