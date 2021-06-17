@@ -1,0 +1,17 @@
+
+
+counter = 1
+
+for i in range(2):
+    h = int(input())
+    a = h%10
+    if  a==2 or a==9:
+        counter = (counter*h)
+    else:
+        print(0)
+    
+print(counter)
+    
+
+
+    
