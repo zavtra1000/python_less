@@ -1,0 +1,16 @@
+counter = 0
+
+
+
+counter = 0
+
+for i in range(2):
+    h = int(input())
+    a = h%10
+    if  a==1 or a==3 or a==7:
+        counter = (counter + h)
+print(counter)
+    
+
+
+    
