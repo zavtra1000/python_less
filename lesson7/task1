@@ -1,0 +1,11 @@
+
+num = int(input())
+flag = 0
+
+while num !=0 and num<10:
+    num = int(input())
+    if num > 100:
+        break
+    #elif number > 100:
+        #break
+print(num)
