@@ -1,0 +1,23 @@
+
+
+
+flag = 0
+
+for i in range(3):
+    n = int(input())
+    if  n%2==0:
+        flag = 1
+    
+if flag != 0:
+    print('yes')
+else:
+    print('no')
+
+
+    
+    
+
+    
+
+
+    
