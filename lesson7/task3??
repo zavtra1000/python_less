@@ -1,0 +1,21 @@
+
+№ с 21 31 работает, с 22 12 нет 
+
+num = int(input())
+flag = 0
+
+while num !=0:
+    num = int(input())
+    if num%10==1:
+        flag = num
+        #print('yes')
+        if flag%10==1:
+            print('yes')
+    else:
+        print('no')
+        break
+    
+#if flag == 1:
+    #print('yes')
+#else:
+    #print('no')
