@@ -1,0 +1,20 @@
+
+num = int(input())
+flag = 0
+
+while num > 0:
+    last_digit = num%10
+    if last_digit==1:
+        flag += last_digit
+    num= num//10
+    #break
+if flag!=0:
+    print('yes')
+else:
+    print('no')
+    
+    
+#if flag == 1:
+    #print('yes')
+#else:
+    #print('no')
