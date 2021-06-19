@@ -1,0 +1,12 @@
+i = int(input())
+for i in range (1, 2049):
+    
+    if i >= 2 and i <=8:
+        continue
+    #print(i)
+    if i>=128 and i<=256:
+        continue
+    #print(i)
+    if i>=1024  and i<=2056:
+        break
+    print(i)
