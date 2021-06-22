@@ -1,0 +1,4 @@
+s='abcdefgklmnoprstyxwz'
+for c  in s:
+   print(s[:])
+        
