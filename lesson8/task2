@@ -1,0 +1,3 @@
+s=input()
+for s in s:
+   print(s.isdigit())
