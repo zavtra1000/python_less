@@ -1,0 +1,4 @@
+s = input()
+#print(s.isupper())
+name = s.upper()
+print(f'{name}')
