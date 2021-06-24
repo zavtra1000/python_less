@@ -1,0 +1,7 @@
+s = input()
+#value = s.split("/")
+q = s.split('.')
+if len(q)==4 and 0<=int(q[0])<=255 and 0<=int(q[1])<=255 and 0<=int(q[2])<=255 and 0<=int(q[3])<=255:
+    print('yes')
+else:
+    print('no')
