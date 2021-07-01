@@ -1,0 +1,27 @@
+#загадать случайное число от 1 до 100
+#организовать опрос пользователя
+#ввести число
+#если загаданное число больше чем введеное то говорим пользователю больше
+#если загаданное число меньше чем введеное то говорим пользователю меньше
+#если загаданное число равно введенному то говорим ура победа
+#до скорых встреч
+
+import random
+
+secret_number = random.randint(1, 100)
+print('Добро пожаловать в игру угадай число')
+quest_taken = 0
+while True: 
+    print('Введите число от 1 до 100')
+    user_number = int(input())
+    user_number += 1
+    if secret_number>user_number:
+        print('больше')
+    elif secret_number<user_number:
+        print('меньше')
+    elif secret_number==user_number:
+        print('ура победа')
+        break
+quest_taken = user_number
+print(quest_taken)
+print('до скорых встреч')
